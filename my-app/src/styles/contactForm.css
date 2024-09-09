@@ -61,6 +61,7 @@ color: red
     margin-bottom: 50px;
     position: relative;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .mail-icon{
@@ -70,6 +71,17 @@ color: red
     top: 50%;
     right: -10px;
     transform: translate(-50%, -50%);
+}
+
+.bullet{
+    position: absolute;
+    top: 27px;
+    right: 58px;
+    font-weight: 600;
+}
+
+.relative{
+    position: relative;
 }
 @media only screen and (min-width: 1600px) {
     .main-container h3{
@@ -96,6 +108,9 @@ color: red
     }
     ::placeholder {
         font-size: 18px;
+    }
+    .info-img {
+        width: 60%;
     }
 }
 
@@ -156,5 +171,8 @@ color: red
     }
     .info-img{
         width: 100%;
+    }
+    .bullet{
+        right: -15px;
     }
 }
