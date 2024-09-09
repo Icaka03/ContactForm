@@ -1,178 +1,175 @@
-.main-container{
-    display: flex;
+.main-container {
+  display: flex;
 }
 
-.info-box{
-    width: 50%;
-    padding: 20px 50px 50px 80px;
+.info-box {
+  width: 50%;
+  padding: 20px 50px 50px 80px;
 }
 
-.form{
-    width: 50%;
-    padding-top: 20px;
+.form {
+  width: 50%;
+  padding-top: 20px;
 }
 
-.info-img{
-    width: 70%;
-    margin-top: 77px;
-
+.info-img {
+  width: 70%;
+  margin-top: 77px;
 }
 
-.normal-input{
-    padding: 14px 25px;
-    margin-right: 50px;
-    margin-top: 25px;
-    border: 2px solid #6d6e71;
+.normal-input {
+  padding: 14px 21px;
+  margin-right: 50px;
+  margin-top: 25px;
+  border: 2px solid #6d6e71;
 }
 
 ::placeholder {
-    color: #000;
+  color: #000;
 }
 
-.topic-input{
-    padding: 14px 0px;
-    border: 2px solid #6d6e71;
-    margin-top: 25px;
-    width: 453px;
-    padding-left: 25px;
+.topic-input {
+  padding: 14px 0px;
+  border: 2px solid #6d6e71;
+  margin-top: 25px;
+  width: 453px;
+  padding-left: 25px;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.request-input{
-    width: 453px;
-    border: 2px solid #6d6e71;
-    margin-top: 25px;
-    padding: 14px 0px 200px 25px;
+.request-input {
+  width: 453px;
+  border: 2px solid #6d6e71;
+  margin-top: 25px;
+  padding: 14px 0px 200px 25px;
 }
-
 
 .request-input ::placeholder {
-color: red
+  color: red;
 }
 
-.form-button{
-    background-color: #2f2f2f;
-    color: #fff;
-    padding: 13px 70px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    position: relative;
-    font-size: 20px;
-    cursor: pointer;
+.form-button {
+  background-color: #2f2f2f;
+  color: #fff;
+  padding: 13px 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.mail-icon{
-    position: absolute;
-    width: 30px;
-    height: 20px;
-    top: 50%;
-    right: -10px;
-    transform: translate(-50%, -50%);
+.mail-icon {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 50%;
+  right: -10px;
+  transform: translate(-50%, -50%);
 }
 
-.bullet{
-    position: absolute;
-    top: 27px;
-    right: 58px;
-    font-weight: 600;
+.bullet {
+  position: absolute;
+  top: 27px;
+  right: 58px;
+  font-weight: 600;
 }
 
-.relative{
-    position: relative;
+.relative {
+  position: relative;
 }
 @media only screen and (min-width: 1600px) {
-    .main-container h3{
-        font-size: 23px;
-    }
-    .info-list p{
-        font-size: 20px;
-    }
+  .main-container h3 {
+    font-size: 23px;
+  }
+  .info-list p {
+    font-size: 20px;
+  }
 
-    .normal-input{
-        padding: 20px 0px;
-        padding-left: 14px;
-        padding-right: 66px;
-    }
-    .request-input{
-        width: 525px;
-        padding: 20px 0px 200px ;
-        padding-left: 14px;
-    }
-    .topic-input{
-        width: 525px;
-        padding: 20px 0px;
-        padding-left: 14px;
-    }
-    ::placeholder {
-        font-size: 18px;
-    }
-    .info-img {
-        width: 60%;
-    }
+  .normal-input {
+    padding: 20px 0px;
+    padding-left: 14px;
+    padding-right: 66px;
+  }
+  .request-input {
+    width: 525px;
+    padding: 20px 0px 200px;
+    padding-left: 14px;
+  }
+  .topic-input {
+    width: 525px;
+    padding: 20px 0px;
+    padding-left: 14px;
+  }
+  ::placeholder {
+    font-size: 18px;
+  }
+  .info-img {
+    width: 60%;
+  }
 }
 
-
 @media all and (max-width: 700px) {
-    .main-container{
-        display: block;
-    }
-    .flex{
-        display: block;
-    }
-    .topic-input{
-        width: 100%;
-    }
-    .normal-input{
-        width: 100%; 
-        margin-right: 0px;  
-        padding: 14px 0px 14px 25px;
-    }
-    .form{
-        width: 65%;
-        margin: 0 auto;
-        margin-bottom: 300px;
-    }
-    .info-box{
-        width: 100%;
-        padding: 0px;
-    }
-    .request-input{
-        width: 100%;
-    }
-    .form-button{
-        margin: 0 auto;
-        display: block;
-        margin-top: 40px;
-    }
+  .main-container {
+    display: block;
+  }
+  .flex {
+    display: block;
+  }
+  .topic-input {
+    width: 100%;
+  }
+  .normal-input {
+    width: 100%;
+    margin-right: 0px;
+    padding: 14px 0px 14px 25px;
+  }
+  .form {
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 300px;
+  }
+  .info-box {
+    width: 100%;
+    padding: 0px;
+  }
+  .request-input {
+    width: 100%;
+  }
+  .form-button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+  }
 
-    .form h3{
-        text-align: center;
-        font-size: 23px;
-    }
+  .form h3 {
+    text-align: center;
+    font-size: 23px;
+  }
 
-    .mail-icon{
-        right: 0px;
-    }
+  .mail-icon {
+    right: 0px;
+  }
 
-    .info-box h3{
+  .info-box h3 {
     text-align: left;
     font-size: 23px;
     width: 80%;
     margin: 0 auto;
     margin-top: 30px;
-    }
-    .info-list p{
-        width: 80%;
-        margin: 0 auto;
-        margin-top: 40px;
-    }
-    .info-img{
-        width: 100%;
-    }
-    .bullet{
-        right: -15px;
-    }
+  }
+  .info-list p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .info-img {
+    width: 100%;
+  }
+  .bullet {
+    right: -15px;
+  }
 }
