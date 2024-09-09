@@ -51,6 +51,10 @@
   color: red;
 }
 
+.info-list p {
+  line-height: 1.5;
+}
+
 .form-button {
   background-color: #2f2f2f;
   color: #fff;
@@ -87,6 +91,7 @@
   }
   .info-list p {
     font-size: 20px;
+    line-height: 1.5;
   }
 
   .normal-input {
